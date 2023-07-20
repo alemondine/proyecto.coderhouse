@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inicio index.html borgia */
+/* inicio navegador */
+.navegador {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador img{
+    width: 364px;
+    padding: 20px;
+    object-fit:cover;
+    margin-left: 60px;
+}
+
+.navegador ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    margin-right: 60px;
+}
+
+.navegador ul li a {
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.reserva{
+    border: white solid 1px;
+    border-radius: 0px;
+
+}
+
+/* fin navegador */
+
+/* inicio header */
+.encabezado {
+    background-image: url(../multimedia./img./VISTA.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.encabezado div{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado h1{
+    padding: 5px;
+}
+
+.encabezado h2{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.encabezado h3{
+    margin: 20px;
+}
+
+.encabezado a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 40px;
+    border: white solid 1px;
+    border-radius: 0px;
+}
+/* fin header */
+
+/* inicio main */
+/* inicio famiglia borgia */
+.famigliaBorgia{
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 50px;
+    gap: 40px;
+}
+
+.famigliaBorgia h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+.tarjetaFamigliaBorgia{
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.tarjetaFamigliaBorgiaPA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.famigliaBorgia img{
+    height: 400px;
+    background-size: cover;
+
+}
+
+.famigliaBorgia p{
+    padding: 30px;
+    text-align: center;
+    color: white
+}
+
+.famigliaBorgia button{
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    border: white solid 1px;
+}
+/* fin famiglia borgia */
+
+/* inicio nuestrasEspecialidades */
+.nuestrasEspecialidades{
+    background-color: rgb(35, 35, 35);
+}
+
+.nuestrasEspecialidades h2{
+    color: white;
+    text-align: center;
+}
+
+.nuestrasEspecialidades p{
+    color: white;
+    text-align: center;
+}
+
+.nuestrasEspecialidadesTarjetas{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    border-color: white;
+}
+
+.nuestrasEspecialidadesTarjetas img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.nuestrasEspecialidadesTarjetas button{
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+}
+/* fin nuestrasEspecialidades borgia */
+
+/* inicio eventosPrivadosYCorporativos borgia */
+
+.eventosPrivadosYCorporativos{
+    background-image: url(../multimedia./img./dj.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.eventosPrivadosYCorporativos h2{
+    color: white;
+    text-align: center;
+}
+
+.eventosPrivadosYCorporativos p{
+    color: white;
+    text-align: center;
+}
+
+.eventosPrivadosYCorporativos button{
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+}
+/* fin eventosPrivadosYCorporativos */
+/* fin main */
+
+/* inicio footer */
+/* inicio reservas */
+.reservas{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+}
+
+.reservas img{
+    width: 100;
+    height: 50px;
+    object-fit: cover;
+}
+
+.redes{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+
+}
+/* fin reservas */
+/* fin footer */
+
+/* inicio menu.html */
+/* inicio main */
+.pageMenu {
+    background-color: rgb(35, 35, 35);
+    height: 100%;
+}
+
+.pageMenu h2{
+    text-align: center;
+    color: white;
+}
+
+.pageMenu p{
+    text-align: center;
+    color: white;
+}
+
+.pageMenu div{
+    width: 100px;
+    height: 100%;
+    margin: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    border-color: white;
+}
+
+.pageMenu img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.pageMenu button{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+/* fin main */
+/* fin menu.html */
+
+/* inicio conocerMas.html */
+/* inicio main */
+.mainConocerMas{
+    background-color: #353535;
+    text-align: center;
+    color: white;
+}
+
+.mainConocerMas img{
+    width: 400px;
+    height: 100%;
+    margin: 10px;
+    object-fit: cover;
+}
+.mainConocerMas button{
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.mainConocerMas .redesConocerMas{
+    background-color:#353535;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
