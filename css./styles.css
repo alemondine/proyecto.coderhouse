@@ -8,26 +8,26 @@
 /* inicio navegador */
 .navegador {
     width: 100%;
-    height: 150px;
-    background-color: black;
+    height: auto;
+    background-color: rgb(14, 13, 12);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .navegador img{
-    width: 364px;
+    width: 200px;
+    object-fit: cover;
     padding: 20px;
-    object-fit:cover;
-    margin-left: 60px;
 }
 
 .navegador ul {
     list-style: none;
     display: flex;
     justify-content:center;
-    margin-right: 60px;
+    gap: 50px;
+    padding: 10px;
 }
 
 .navegador ul li a {
@@ -37,13 +37,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .reserva{
     border: white solid 1px;
-    border-radius: 0px;
 
 }
 
@@ -52,258 +49,435 @@
 /* inicio header */
 .encabezado {
     background-image: url(../multimedia./img./VISTA.jpg);
+    background-position: center bottom;
     width: 100%;
-    height: 600px;
+    height: auto;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
-.encabezado div{
-    color: white;
-    margin-top: 100px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.logoHeader{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.encabezado h1{
-    padding: 5px;
-}
-
-.encabezado h2{
-    font-family:Arial, Helvetica, sans-serif
-}
-
-.encabezado h3{
-    margin: 20px;
+.logoHeaderImg{
+    background-image: url(../multimedia./img./HEADER.png);
+    background-size: cover;
+    width: 400px;
+    height: 350px;
 }
 
 .encabezado a{
+    width: 180px;
+    height: 30px;
     display: block;
-    color: white;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 20px;
-    margin: 40px;
-    border: white solid 1px;
-    border-radius: 0px;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
+    text-align: center;
 }
 /* fin header */
 
 /* inicio main */
 /* inicio famiglia borgia */
 .famigliaBorgia{
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(14, 13, 12);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding: 50px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .famigliaBorgia h2{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-family: 'Prata', serif;;
     width: 100%;
     text-align: center;
-    color: white;
+    color: rgb(222, 198, 150);
+    margin-top: 50px;
+}
+
+.famigliaBorgia p{
+    font-size: 18px;
 }
 
 
 .tarjetaFamigliaBorgia{
-    width: 70%;
+    width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 50px;
 }
 
 .tarjetaFamigliaBorgiaPA{
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .famigliaBorgia img{
+    width: 300px;
     height: 400px;
     background-size: cover;
 
 }
 
 .famigliaBorgia p{
-    padding: 30px;
+    font-size: 14px;
+    margin-top: 10px;
     text-align: center;
-    color: white
+    color: white;
+    font-family: 'Prata', serif;;
+    padding: 20px;
 }
 
-.famigliaBorgia button{
-    color: white;
-    width: 120px;
-    height: 50px;
-    font-size: 16px;
-    border: white solid 1px;
+.famigliaBorgia ul {
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.famigliaBorgia ul li a{
+    width: 180px;
+    height: 30px;
+    display: block;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
+    text-align: center;
 }
 /* fin famiglia borgia */
 
 /* inicio nuestrasEspecialidades */
 .nuestrasEspecialidades{
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(23, 24, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nuestrasEspecialidades h2{
-    color: white;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    width: 100%;
     text-align: center;
+    color: rgb(222, 198, 150);
+    margin-top: 50px;
 }
 
 .nuestrasEspecialidades p{
-    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    width: 100%;
     text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
 }
 
 .nuestrasEspecialidadesTarjetas{
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-    margin-bottom: 100px;
-    text-align: center;
-    color: white;
-    border-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width:100%;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
-.nuestrasEspecialidadesTarjetas img{
-    width: 100%;
+.nuestrasEspecialidadesTarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nuestrasEspecialidadesTarjeta img{
+    width: 300px;
     object-fit: cover;
 }
 
-.nuestrasEspecialidadesTarjetas button{
-    width: 120px;
-    height: 50px;
-    font-size: 16px;
-    background-color: white;
-    border: none;
+.nuestrasEspecialidades ul li{
+    list-style: none;
+}
+
+.nuestrasEspecialidades ul li a{
+    width: 180px;
+    height: 30px;
+    display: block;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 /* fin nuestrasEspecialidades borgia */
 
 /* inicio eventosPrivadosYCorporativos borgia */
-
 .eventosPrivadosYCorporativos{
     background-image: url(../multimedia./img./dj.jpg);
+    background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 500px;
-    text-align: center;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
 }
 
 .eventosPrivadosYCorporativos h2{
     color: white;
     text-align: center;
+    margin-top: 200px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+
 }
 
 .eventosPrivadosYCorporativos p{
     color: white;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
 }
 
-.eventosPrivadosYCorporativos button{
-    width: 120px;
-    height: 50px;
-    font-size: 16px;
-    background-color: white;
-    border: none;
+.eventosPrivadosYCorporativos a{
+    width: 180px;
+    height: 30px;
+    display: block;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
+    text-align: center;
+    margin-top: 20px;
 }
 /* fin eventosPrivadosYCorporativos */
 /* fin main */
 
 /* inicio footer */
 /* inicio reservas */
-.reservas{
-    background-color: rgb(16, 16, 16);
+
+.footer{
+    background-color: rgb(14, 13, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footerImg{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footerImg img{
+    height: 60px;
+}
+
+.footerH2H3P{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
     color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.footer a{
+    width: 180px;
+    height: 30px;
+    display: block;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
     text-align: center;
 }
 
-.reservas img{
-    width: 100;
-    height: 50px;
-    object-fit: cover;
-}
-
-.redes{
-    background-color: rgb(16, 16, 16);
+.footerRedes{
     color: white;
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
+
 /* fin reservas */
 /* fin footer */
 
-/* inicio menu.html */
+/* inicio eventosPrivadosYCorporativos.html */
 /* inicio main */
-.pageMenu {
-    background-color: rgb(35, 35, 35);
-    height: 100%;
-}
-
-.pageMenu h2{
-    text-align: center;
-    color: white;
-}
-
-.pageMenu p{
-    text-align: center;
-    color: white;
-}
-
-.pageMenu div{
-    width: 100px;
-    height: 100%;
-    margin: 50px;
-    margin-bottom: 100px;
-    text-align: center;
-    color: white;
-    border-color: white;
-}
-
-.pageMenu img{
+.galeriaImagenes{
     width: 100%;
-    object-fit: cover;
+    height: 600px;
+    background-color: antiquewhite;
+    border: white solid 1px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
-.pageMenu button{
-    width: 150px;
-    height: 40px;
-    border: none;
+.galeriaImagenes div{
+    width: auto;
+    margin: 2px;
 }
+
+.img1{
+    grid-column: 1/3;
+    grid-row: 1/4;
+    background-image: url(../multimedia./img./grid./DSC_1462.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    background-image: url(../multimedia./img./grid./DSC_1390.jpg);
+    background-size: cover;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-position: center bottom;
+}
+
+.img3{
+    background-image: url(../multimedia./img./grid./DSC_6456.jpg);
+    background-size: cover;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-position: center;
+}
+
+.img4{
+    background-image: url(../multimedia./img./grid./DSC_6417.jpg);
+    background-size: cover;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-position: center top;
+}
+
+.img5{
+    background-image: url(../multimedia./img./grid./DSC_6366.jpg);
+    background-size: cover;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-position: center center;
+}
+
+/* fin eventosPrivadosYCorporativos.html */
 /* fin main */
-/* fin menu.html */
 
-/* inicio conocerMas.html */
+/* inicio pageMenu.html */
 /* inicio main */
-.mainConocerMas{
-    background-color: #353535;
-    text-align: center;
-    color: white;
+
+.nuestrasEspecialidadesPageMenu{
+    width: auto;
+    height: auto;
+    background-color: rgb(23, 24, 24);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
 }
 
-.mainConocerMas img{
-    width: 400px;
-    height: 100%;
-    margin: 10px;
-    object-fit: cover;
-}
-.mainConocerMas button{
-    width: 150px;
-    height: 40px;
-    border: none;
+.nuestrasEspecialidadesPageMenu a{
+    width: 180px;
+    height: 30px;
+    display: block;
+    color: rgb(222, 198, 150);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    border: rgb(222, 198, 150) solid 1px;
+    text-align: center;
 }
 
-.mainConocerMas .redesConocerMas{
-    background-color:#353535;
-    color: white;
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
+.PageMenuCocktails{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1/2;
+}
+
+.imgPagueMenuCocktails{
+    width: 300px;
+    height: 450px;
+    background-image: url(../multimedia./img./negroni.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.PageMenuMenu{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    grid-column: 2/3;
+
+}
+
+.imgPagueMenuMenu{
+    width: 300px;
+    height: 450px;
+    background-image: url(../multimedia./img./lasaña.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.PageMenuCava{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    grid-column: 3/4;
+}
+
+.imgPagueMenuCava{
+    width: 300px;
+    height: 450px;
+    background-image: url(../multimedia./img./vino.jpg);
+    background-size: cover;
+    background-position: center center;
 }
