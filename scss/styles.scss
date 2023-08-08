@@ -14,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    gap: 10px;
     img{
         width: 200px;
         object-fit: cover;
@@ -28,38 +29,24 @@
         margin-top: 0px;
         margin-bottom: 0px;
         padding-left: 0px;
-        gap: 20px;
+        gap:20px;
         li{
             width: 80px;
             padding: 10px;
             text-align: center;
-            a {
-                color: white;
-                font-size: 12px;
-                font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 90px;
+            border: white solid 1px;
+            margin-top: 10px;
+            a{
                 text-decoration: none;
-                width: 80px;
+                color: white;
             }
         }
     }
 }
-
-.reserva{
-    border: white solid 1px;
-    padding: 10px;
-    text-align: center;
-    &:hover{
-        color: black;
-        font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        padding: 10px;
-        width: 100px;
-        text-align: center;
-        background-color: white;
-    }
-}
-
 /* fin navegador */
 
 /* inicio header */
