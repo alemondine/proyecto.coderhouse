@@ -1,9 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
 /* inicio index.html borgia */
 /* inicio navegador */
 .navegador {
@@ -14,44 +13,51 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
-
-.navegador img{
-    width: 200px;
-    object-fit: cover;
     padding: 20px;
-}
-
-.navegador ul {
-    list-style: none;
-    display: flex;
-    justify-content:center;
-    gap: 50px;
-    padding: 10px;
-}
-
-.navegador ul li a {
-    display: block;
-    color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 20px;
-    width: 100px;
-    text-align: center;
-}
-.navegador ul li a:hover{
-    display: block;
-    color:rgb(14, 13, 12);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 20px;
-    background-color: white;
+    img{
+        width: 200px;
+        object-fit: cover;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        gap: 20px;
+        li{
+            width: 80px;
+            padding: 10px;
+            text-align: center;
+            a {
+                color: white;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                width: 80px;
+            }
+        }
+    }
 }
 
 .reserva{
     border: white solid 1px;
+    padding: 10px;
+    text-align: center;
+    &:hover{
+        color: black;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 10px;
+        width: 100px;
+        text-align: center;
+        background-color: white;
+    }
 }
 
 /* fin navegador */
@@ -69,7 +75,7 @@
 }
 
 .logoHeader{
-    width: 800px;
+    width: 300px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -81,8 +87,8 @@
 .logoHeaderImg{
     background-image: url(../multimedia./img./header/HEADER.png);
     background-size: cover;
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height:300px;
 }
 
 .encabezado a{
@@ -96,20 +102,19 @@
     padding: 6px;
     border: rgb(222, 198, 150) solid 1px;
     text-align: center;
-}
-
-.encabezado a:hover{
-    width: 180px;
-    height: 30px;
-    display: block;
-    color: white;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    background-color: rgb(222, 198, 150);
+    &:hover{
+        width: 180px;
+        height: 30px;
+        display: block;
+        color: white;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 6px;
+        border: rgb(222, 198, 150) solid 1px;
+        text-align: center;
+        background-color: rgb(222, 198, 150);
+    }
 }
 /* fin header */
 
@@ -150,6 +155,44 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    p{
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+        color: white;
+        font-family: 'Prata', serif;;
+        padding: 20px;
+    }
+    ul {
+        margin-top: 20px;
+        list-style: none;
+        margin-bottom: 20px;
+        li a{
+            width: 180px;
+            height: 30px;
+            display: block;
+            color: rgb(222, 198, 150);
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            padding: 6px;
+            border: rgb(222, 198, 150) solid 1px;
+            text-align: center;
+            &:hover{
+                width: 180px;
+                height: 30px;
+                display: block;
+                background-color: rgb(222, 198, 150);
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                padding: 6px;
+                border: rgb(222, 198, 150) solid 1px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
 }
 
 .famigliaBorgia img{
@@ -157,48 +200,6 @@
     height: 400px;
     background-size: cover;
 
-}
-
-.famigliaBorgia p{
-    font-size: 14px;
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-    font-family: 'Prata', serif;;
-    padding: 20px;
-}
-
-.famigliaBorgia ul {
-    margin-top: 20px;
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.famigliaBorgia ul li a{
-    width: 180px;
-    height: 30px;
-    display: block;
-    color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-}
-
-.famigliaBorgia ul li a:hover{
-    width: 180px;
-    height: 30px;
-    display: block;
-    background-color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    color: white;
 }
 /* fin famiglia borgia */
 
@@ -255,43 +256,39 @@
 
 .nuestrasEspecialidades ul li{
     list-style: none;
-}
-
-.nuestrasEspecialidades ul li a{
-    width: 180px;
-    height: 30px;
-    display: block;
-    color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-.nuestrasEspecialidades ul li a:hover{
-    width: 180px;
-    height: 30px;
-    display: block;
-    background-color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    color: white;
+    a{
+        width: 180px;
+        height: 30px;
+        display: block;
+        color: rgb(222, 198, 150);
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 6px;
+        border: rgb(222, 198, 150) solid 1px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        &:hover{
+            width: 180px;
+            height: 30px;
+            display: block;
+            background-color: rgb(222, 198, 150);
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            padding: 6px;
+            border: rgb(222, 198, 150) solid 1px;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            color: white;
+        }
+    }
 }
 /* fin nuestrasEspecialidades borgia */
 
 /* inicio eventosPrivadosYCorporativos borgia */
-
-
 .eventosPrivadosYCorporativos{
     background-color: rgb(23, 24, 24);
     display: flex;
@@ -333,22 +330,21 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-}
-
-.eventosPrivadosYCorporativos a:hover{
-    width: 180px;
-    height: 30px;
-    display: block;
-    background-color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: white;
+    &:hover{
+        width: 180px;
+        height: 30px;
+        display: block;
+        background-color: rgb(222, 198, 150);
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 6px;
+        border: rgb(222, 198, 150) solid 1px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: white;
+    }
 }
 
 .carousel {
@@ -367,13 +363,11 @@
     object-fit: contain;
     background-color: rgb(23, 24, 24);
 }
-
 /* fin eventosPrivadosYCorporativos */
 /* fin main */
 
 /* inicio footer */
 /* inicio reservas */
-
 .footer{
     background-color: rgb(14, 13, 12);
     display: flex;
@@ -386,10 +380,9 @@
 .footerImg{
     margin-top: 50px;
     margin-bottom: 20px;
-}
-
-.footerImg img{
-    height: 60px;
+    img{
+        height: 60px;
+    }
 }
 
 .footerH2H3P{
@@ -413,20 +406,19 @@
     padding: 6px;
     border: rgb(222, 198, 150) solid 1px;
     text-align: center;
-}
-
-.footer a:hover{
-    width: 180px;
-    height: 30px;
-    display: block;
-    background-color: rgb(222, 198, 150);
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 6px;
-    border: rgb(222, 198, 150) solid 1px;
-    text-align: center;
-    color: white;
+    &:hover{
+        width: 180px;
+        height: 30px;
+        display: block;
+        background-color: rgb(222, 198, 150);
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 6px;
+        border: rgb(222, 198, 150) solid 1px;
+        text-align: center;
+        color: white;
+    }
 }
 
 .footerRedes{
@@ -435,7 +427,6 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
-
 /* fin reservas */
 /* fin footer */
 
