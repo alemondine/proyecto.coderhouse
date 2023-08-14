@@ -1,6 +1,11 @@
 .PageConocerMasH1{
     @extend %titulosH1;
 }
+
+.pageA{
+    @extend %pagesA;
+}
+
 .galeriaImagenes{
     width: 100%;
     height: 600px;

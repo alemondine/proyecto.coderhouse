@@ -40,3 +40,12 @@ $colorTipografiaDorada: #dec696;
     background-color: $colorSecundario;
     padding: 20px;
 }
+
+%pagesA{
+    background-color: $colorSecundario;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
