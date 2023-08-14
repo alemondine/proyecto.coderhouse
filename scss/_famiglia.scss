@@ -7,16 +7,6 @@
     gap: 20px;
 }
 
-.famigliaBorgia h2{
-    font-size: 24px;
-    font-family: 'Prata', serif;
-    width: 100%;
-    text-align: center;
-    color: $colorTipografiaDorada;
-    margin-top: 50px;
-}
-
-
 .tarjetaFamigliaBorgia{
     width: 100%;
     display: flex;
@@ -24,29 +14,44 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    align-content: center;
     padding: 50px;
+    gap: 30px;
 }
 
 .tarjetaFamigliaBorgiaPA{
-    width: 600px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 24px;
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        color: $colorTipografiaDorada;
+        margin-top: 50px;
+    }
     p{
         font-size: 14px;
-        margin-top: 10px;
         text-align: center;
         color: white;
         font-family: 'Prata', serif;;
         padding: 20px;
     }
     ul {
-        margin-top: 20px;
         list-style: none;
-        margin-bottom: 20px;
-        li a{
-            @extend %boton;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        li{
+            a{
+                @extend %boton;
+            }
         }
     }
 }

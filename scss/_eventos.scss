@@ -5,29 +5,27 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.eventosPrivadosYCorporativos h2{
-    font-size: 24px;
-    font-family: 'Prata', serif;
-    width: 100%;
-    text-align: center;
-    color: $colorTipografiaDorada;
-    margin-top: 50px;
-
-}
-
-.eventosPrivadosYCorporativos p{
-    font-family: 'Prata', serif;
-    width: 100%;
-    text-align: center;
-    color: white;
-    margin: 10px;
-    font-size: 14px;
-}
-
-.eventosPrivadosYCorporativos a{
-    @extend %boton;
+    h2{
+        font-size: 24px;
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        color: $colorTipografiaDorada;
+        margin-top: 50px;
+    
+    }
+    p{
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        font-size: 14px;
+    }
+    a{
+        margin: 20px;
+        @extend %boton;
+    }
 }
 
 .carousel {

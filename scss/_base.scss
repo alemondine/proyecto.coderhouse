@@ -2,11 +2,14 @@ $colorPrimario: #0e0d0c;
 $colorSecundario: #171818;
 $colorTipografiaDorada: #dec696;
 
+%border{
+    border: red solid 1px;
+}
 
 %boton{
+    display: block;
     width: 180px;
     height: 30px;
-    display: block;
     color: $colorTipografiaDorada;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,11 +17,9 @@ $colorTipografiaDorada: #dec696;
     padding: 6px;
     border: $colorTipografiaDorada solid 1px;
     text-align: center;
-    margin: 20px;
     &:hover{
         width: 180px;
         height: 30px;
-        display: block;
         color: white;
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +28,5 @@ $colorTipografiaDorada: #dec696;
         border: $colorTipografiaDorada solid 1px;
         text-align: center;
         background-color: rgb(222, 198, 150);
-        margin: 20px;
     }
 }

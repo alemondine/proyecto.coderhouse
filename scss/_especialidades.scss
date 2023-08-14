@@ -3,24 +3,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    h2{
+        font-size: 24px;
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        color: $colorTipografiaDorada;
+        margin-top: 50px;
+    }
+    p{
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        font-size: 14px;
+    }
+    ul{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-left: 0px;
+        li{
+            list-style: none;
+            a{
+                @extend %boton;
+            }
+        }
 
-.nuestrasEspecialidades h2{
-    font-size: 24px;
-    font-family: 'Prata', serif;
-    width: 100%;
-    text-align: center;
-    color: $colorTipografiaDorada;
-    margin-top: 50px;
-}
-
-.nuestrasEspecialidades p{
-    font-family: 'Prata', serif;
-    width: 100%;
-    text-align: center;
-    color: white;
-    margin: 10px;
-    font-size: 14px;
+    }
+    
+    
 }
 
 .nuestrasEspecialidadesTarjetas{
@@ -41,16 +56,8 @@
     gap: 20px;
     color: white;
     font-family: 'Cormorant Garamond', serif;
-}
-
-.nuestrasEspecialidadesTarjeta img{
-    width: 300px;
-    object-fit: cover;
-}
-
-.nuestrasEspecialidades ul li{
-    list-style: none;
-    a{
-        @extend %boton;
+    img{
+        width: 300px;
+        object-fit: cover;
     }
 }
