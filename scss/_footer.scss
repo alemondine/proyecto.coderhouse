@@ -1,0 +1,49 @@
+.footer{
+    background-color: $colorPrimario;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footerImg{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    img{
+        height: 60px;
+    }
+}
+
+.footerH2H3P{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-family: 'Prata', serif;
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.footer a{
+    @extend %boton;
+}
+
+.footerRedes{
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    &:hover{
+        transition: 1s;
+        transform: scale(2);
+    }
+}
