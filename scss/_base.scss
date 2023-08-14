@@ -30,3 +30,13 @@ $colorTipografiaDorada: #dec696;
         background-color: rgb(222, 198, 150);
     }
 }
+
+%titulosH1{
+    font-size: 14px;
+    font-family: 'Prata', serif;
+    width: 100%;
+    text-align: center;
+    color: $colorTipografiaDorada;
+    background-color: $colorSecundario;
+    padding: 20px;
+}

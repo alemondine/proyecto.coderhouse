@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.footer a, .eventosPrivadosYCorporativos a, .nuestrasEspecialidades ul li a, .tarjetaFamigliaBorgiaPA ul li a, .logoHeader a {
+.nuestrasEspecialidadesPageMenu a, .footer a, .eventosPrivadosYCorporativos a, .nuestrasEspecialidades ul li a, .tarjetaFamigliaBorgiaPA ul li a, .logoHeader a {
   display: block;
   width: 180px;
   height: 30px;
@@ -17,7 +17,7 @@
   border: #dec696 solid 1px;
   text-align: center;
 }
-.footer a:hover, .eventosPrivadosYCorporativos a:hover, .nuestrasEspecialidades ul li a:hover, .tarjetaFamigliaBorgiaPA ul li a:hover, .logoHeader a:hover {
+.nuestrasEspecialidadesPageMenu a:hover, .footer a:hover, .eventosPrivadosYCorporativos a:hover, .nuestrasEspecialidades ul li a:hover, .tarjetaFamigliaBorgiaPA ul li a:hover, .logoHeader a:hover {
   width: 180px;
   height: 30px;
   color: white;
@@ -28,6 +28,16 @@
   border: #dec696 solid 1px;
   text-align: center;
   background-color: rgb(222, 198, 150);
+}
+
+.PageConocerMasH1, .nuestrasEspecialidadesPageMenuH1 {
+  font-size: 14px;
+  font-family: "Prata", serif;
+  width: 100%;
+  text-align: center;
+  color: #dec696;
+  background-color: #171818;
+  padding: 20px;
 }
 
 .navegador {
@@ -313,28 +323,14 @@
   width: auto;
   height: auto;
   background-color: #171818;
-  padding: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   gap: 50px;
+  padding: 30px;
 }
-
-.nuestrasEspecialidadesPageMenu a {
-  width: 180px;
-  height: 30px;
-  display: block;
-  color: #dec696;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  padding: 6px;
-  border: #dec696 solid 1px;
-  text-align: center;
-}
-
 .PageMenuCocktails {
   width: 300px;
   height: 450px;
