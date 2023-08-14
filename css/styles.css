@@ -314,12 +314,15 @@
 }
 .footerH2H3P h2 {
   font-size: 24px;
+  text-align: center;
 }
 .footerH2H3P h3 {
   font-size: 18px;
+  text-align: center;
 }
 .footerH2H3P p {
   font-size: 14px;
+  text-align: center;
 }
 
 .footerRedes {
