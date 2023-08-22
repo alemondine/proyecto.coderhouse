@@ -1,0 +1,41 @@
+.containerNosotros{
+    width: 100%;
+    height: auto;
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.pagesA{
+    @extend %pagesA;
+}
+
+.nosotrosMapa{
+    width: 300px;
+}
+
+.NosotrosInformacion{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-family: 'Prata', serif;
+    text-align: center;
+    h1{
+        font-size: 24px;
+        text-align: center;
+        color: $colorTipografiaDorada;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+        color: $colorTipografiaDorada;
+    }
+}

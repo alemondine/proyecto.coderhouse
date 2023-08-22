@@ -40,12 +40,12 @@
 }
 
 .pageA, .pagesA {
-  background-color: #171818;
+  padding: 20px;
   color: white;
+  font-size: 14px;
   text-decoration: none;
   list-style: none;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  background-color: #171818;
 }
 
 .navegador {
@@ -453,6 +453,44 @@
   grid-column: 3/4;
   grid-row: 3/4;
   background-position: center center;
+}
+
+.containerNosotros {
+  width: 100%;
+  height: auto;
+  background-color: #171818;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.nosotrosMapa {
+  width: 300px;
+}
+
+.NosotrosInformacion {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-family: "Prata", serif;
+  text-align: center;
+}
+.NosotrosInformacion h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #dec696;
+}
+.NosotrosInformacion p {
+  font-size: 14px;
+  text-align: center;
+  color: #dec696;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -42,10 +42,10 @@ $colorTipografiaDorada: #dec696;
 }
 
 %pagesA{
-    background-color: $colorSecundario;
+    padding: 20px;
     color: white;
+    font-size: 14px;
     text-decoration: none;
     list-style: none;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    background-color: $colorSecundario;
 }
