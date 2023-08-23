@@ -36,7 +36,7 @@
     }
 }
 
-.footer a{
+.footerH2H3P a{
     @extend %boton;
 }
 
@@ -47,6 +47,6 @@
     margin-bottom: 20px;
     &:hover{
         transition: 1s;
-        transform: scale(2);
+        transform: scale(1.3);
     }
 }
