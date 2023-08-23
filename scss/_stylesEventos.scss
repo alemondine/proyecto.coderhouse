@@ -4,7 +4,7 @@
         font-family: 'Prata', serif;
         width: 100%;
         text-align: center;
-        color: $colorTipografiaDorada;
+        color: white;
         margin: 10px;
         font-size: 14px;
     }
@@ -23,9 +23,11 @@
     background-color:$colorTipografiaDorada;
 }
 
-.galeriaImagenes div{
+.galeriaImagenes{
+    div{
     width: auto;
     margin: 1px;
+    }
 }
 
 .img1{

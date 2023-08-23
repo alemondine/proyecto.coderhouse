@@ -1,6 +1,16 @@
 .nuestrasEspecialidadesPageMenuH1{
     @extend %titulosH1;
+    p{
+        font-family: 'Prata', serif;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        font-size: 14px;
+    }
 }
+
+
 
 .pagesA{
     @extend %pagesA;

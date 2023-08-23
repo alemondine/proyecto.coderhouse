@@ -36,8 +36,10 @@
     }
 }
 
-.footerH2H3P a{
+.footerH2H3P{
+    a{
     @extend %boton;
+    }
 }
 
 .footerRedes{

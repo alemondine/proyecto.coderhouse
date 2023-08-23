@@ -26,6 +26,8 @@
     height:300px;
 }
 
-.logoHeader a{
+.logoHeader{
+    a{
     @extend %boton;
+    }
 }
